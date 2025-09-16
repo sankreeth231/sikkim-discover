@@ -47,6 +47,12 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Sikkim-inspired colors
+        saffron: "hsl(var(--saffron))",
+        monastery: "hsl(var(--monastery))",
+        'mountain-mist': "hsl(var(--mountain-mist))",
+        'prayer-flag': "hsl(var(--prayer-flag))",
+        'golden-light': "hsl(var(--golden-light))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
