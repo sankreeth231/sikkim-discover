@@ -14,6 +14,140 @@ export type Database = {
   }
   public: {
     Tables: {
+      favorites: {
+        Row: {
+          created_at: string | null
+          id: string
+          place_id: string | null
+          user_id: string | null
+        }
+        Insert: {
+          created_at?: string | null
+          id?: string
+          place_id?: string | null
+          user_id?: string | null
+        }
+        Update: {
+          created_at?: string | null
+          id?: string
+          place_id?: string | null
+          user_id?: string | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "favorites_place_id_fkey"
+            columns: ["place_id"]
+            isOneToOne: false
+            referencedRelation: "places"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      places: {
+        Row: {
+          address: string | null
+          altitude: number | null
+          best_time_to_visit: string | null
+          category: Database["public"]["Enums"]["place_category"]
+          contact_info: string | null
+          created_at: string | null
+          created_by: string | null
+          description: string | null
+          difficulty_level: string | null
+          features: string[] | null
+          id: string
+          images: string[] | null
+          is_active: boolean | null
+          is_featured: boolean | null
+          latitude: number | null
+          longitude: number | null
+          name: string
+          place_type: Database["public"]["Enums"]["place_type"]
+          price_range: string | null
+          rating: number | null
+          updated_at: string | null
+          website: string | null
+        }
+        Insert: {
+          address?: string | null
+          altitude?: number | null
+          best_time_to_visit?: string | null
+          category: Database["public"]["Enums"]["place_category"]
+          contact_info?: string | null
+          created_at?: string | null
+          created_by?: string | null
+          description?: string | null
+          difficulty_level?: string | null
+          features?: string[] | null
+          id?: string
+          images?: string[] | null
+          is_active?: boolean | null
+          is_featured?: boolean | null
+          latitude?: number | null
+          longitude?: number | null
+          name: string
+          place_type: Database["public"]["Enums"]["place_type"]
+          price_range?: string | null
+          rating?: number | null
+          updated_at?: string | null
+          website?: string | null
+        }
+        Update: {
+          address?: string | null
+          altitude?: number | null
+          best_time_to_visit?: string | null
+          category?: Database["public"]["Enums"]["place_category"]
+          contact_info?: string | null
+          created_at?: string | null
+          created_by?: string | null
+          description?: string | null
+          difficulty_level?: string | null
+          features?: string[] | null
+          id?: string
+          images?: string[] | null
+          is_active?: boolean | null
+          is_featured?: boolean | null
+          latitude?: number | null
+          longitude?: number | null
+          name?: string
+          place_type?: Database["public"]["Enums"]["place_type"]
+          price_range?: string | null
+          rating?: number | null
+          updated_at?: string | null
+          website?: string | null
+        }
+        Relationships: []
+      }
+      profiles: {
+        Row: {
+          avatar_url: string | null
+          created_at: string | null
+          email: string | null
+          full_name: string | null
+          id: string
+          role: Database["public"]["Enums"]["user_role"] | null
+          updated_at: string | null
+        }
+        Insert: {
+          avatar_url?: string | null
+          created_at?: string | null
+          email?: string | null
+          full_name?: string | null
+          id: string
+          role?: Database["public"]["Enums"]["user_role"] | null
+          updated_at?: string | null
+        }
+        Update: {
+          avatar_url?: string | null
+          created_at?: string | null
+          email?: string | null
+          full_name?: string | null
+          id?: string
+          role?: Database["public"]["Enums"]["user_role"] | null
+          updated_at?: string | null
+        }
+        Relationships: []
+      }
       "sikkim project": {
         Row: {
           created_at: string
@@ -37,7 +171,24 @@ export type Database = {
       [_ in never]: never
     }
     Enums: {
-      [_ in never]: never
+      place_category:
+        | "hotels"
+        | "tourist_spots"
+        | "monasteries"
+        | "nature_points"
+        | "culture_festivals"
+      place_type:
+        | "mountain"
+        | "monastery"
+        | "lake"
+        | "viewpoint"
+        | "park"
+        | "festival"
+        | "hotel"
+        | "temple"
+        | "waterfall"
+        | "trek"
+      user_role: "admin" | "user"
     }
     CompositeTypes: {
       [_ in never]: never
@@ -164,6 +315,27 @@ export type CompositeTypes<
 
 export const Constants = {
   public: {
-    Enums: {},
+    Enums: {
+      place_category: [
+        "hotels",
+        "tourist_spots",
+        "monasteries",
+        "nature_points",
+        "culture_festivals",
+      ],
+      place_type: [
+        "mountain",
+        "monastery",
+        "lake",
+        "viewpoint",
+        "park",
+        "festival",
+        "hotel",
+        "temple",
+        "waterfall",
+        "trek",
+      ],
+      user_role: ["admin", "user"],
+    },
   },
 } as const
