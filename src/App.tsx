@@ -5,7 +5,10 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { SidebarProvider } from "@/components/ui/sidebar";
 import { AuthProvider, useAuth } from "@/contexts/AuthContext";
-import Index from "./pages/Index";
+import Landing from "./pages/Landing";
+import Hotels from "./pages/Hotels";
+import Places from "./pages/Places";
+import ViewPoints from "./pages/ViewPoints";
 import Auth from "./pages/Auth";
 import NotFound from "./pages/NotFound";
 import { AppSidebar } from "@/components/AppSidebar";
@@ -54,43 +57,55 @@ const App = () => (
             <Route path="/auth" element={<Auth />} />
             <Route path="/" element={
               <ProtectedRoute>
-                <AppLayout>
-                  <Index />
-                </AppLayout>
+                <Landing />
               </ProtectedRoute>
             } />
             <Route path="/hotels" element={
               <ProtectedRoute>
                 <AppLayout>
-                  <div className="p-6">Hotels coming soon...</div>
+                  <Hotels />
+                </AppLayout>
+              </ProtectedRoute>
+            } />
+            <Route path="/places" element={
+              <ProtectedRoute>
+                <AppLayout>
+                  <Places />
+                </AppLayout>
+              </ProtectedRoute>
+            } />
+            <Route path="/viewpoints" element={
+              <ProtectedRoute>
+                <AppLayout>
+                  <ViewPoints />
                 </AppLayout>
               </ProtectedRoute>
             } />
             <Route path="/tourist-spots" element={
               <ProtectedRoute>
                 <AppLayout>
-                  <div className="p-6">Tourist Spots coming soon...</div>
+                  <Places />
                 </AppLayout>
               </ProtectedRoute>
             } />
             <Route path="/monasteries" element={
               <ProtectedRoute>
                 <AppLayout>
-                  <div className="p-6">Monasteries coming soon...</div>
+                  <Places />
                 </AppLayout>
               </ProtectedRoute>
             } />
             <Route path="/nature" element={
               <ProtectedRoute>
                 <AppLayout>
-                  <div className="p-6">Nature Points coming soon...</div>
+                  <Places />
                 </AppLayout>
               </ProtectedRoute>
             } />
             <Route path="/festivals" element={
               <ProtectedRoute>
                 <AppLayout>
-                  <div className="p-6">Festivals coming soon...</div>
+                  <Places />
                 </AppLayout>
               </ProtectedRoute>
             } />

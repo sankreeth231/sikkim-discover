@@ -3,7 +3,7 @@ import {
   MapPin, 
   Mountain, 
   Building, 
-  Waves, 
+  Eye, 
   Calendar, 
   Heart,
   Home,
@@ -32,10 +32,8 @@ import { useToast } from "@/hooks/use-toast";
 const navigationItems = [
   { title: "Home", url: "/", icon: Home },
   { title: "Hotels", url: "/hotels", icon: Building },
-  { title: "Tourist Spots", url: "/tourist-spots", icon: Mountain },
-  { title: "Monasteries", url: "/monasteries", icon: MapPin },
-  { title: "Nature Points", url: "/nature", icon: Waves },
-  { title: "Festivals", url: "/festivals", icon: Calendar },
+  { title: "Places", url: "/places", icon: MapPin },
+  { title: "View Points", url: "/viewpoints", icon: Eye },
   { title: "Favorites", url: "/favorites", icon: Heart },
 ];
 
