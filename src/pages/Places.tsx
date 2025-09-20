@@ -154,7 +154,7 @@ const Places = () => {
                 <div 
                   className="h-48 bg-cover bg-center relative group"
                   style={{ 
-                    backgroundImage: `url(${place.images?.[0] || '/src/assets/buddha-park-statue.jpg'})` 
+                    backgroundImage: `url(${place.images?.[0] || '/src/assets/nathula-pass.jpg'})` 
                   }}
                 >
                   <div className="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition-colors"></div>

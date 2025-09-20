@@ -23,7 +23,7 @@ const Hotels = () => {
       location: 'Gangtok',
       price: '₹8,500/night',
       rating: 4.8,
-      image: '/src/assets/buddha-park-statue.jpg',
+      image: '/src/assets/nathula-pass.jpg',
       description: 'Luxury resort with stunning mountain views and world-class spa facilities.',
       amenities: ['Spa', 'Casino', 'Mountain View', 'Restaurant']
     },
@@ -33,7 +33,7 @@ const Hotels = () => {
       location: 'Gangtok',
       price: '₹6,200/night',
       rating: 4.6,
-      image: '/src/assets/sikkim-monastery-door.jpg',
+      image: '/src/assets/tsomgo-lake.jpg',
       description: 'Heritage hotel offering traditional Sikkimese hospitality with modern amenities.',
       amenities: ['Heritage', 'Restaurant', 'City View', 'WiFi']
     },
@@ -43,7 +43,7 @@ const Hotels = () => {
       location: 'Pelling',
       price: '₹5,800/night',
       rating: 4.7,
-      image: '/src/assets/mountain-roads.jpg',
+      image: '/src/assets/gurudongmar-lake.jpg',
       description: 'Eco-friendly resort with panoramic views of Kanchenjunga and surrounding peaks.',
       amenities: ['Eco-friendly', 'Mountain View', 'Trekking', 'Restaurant']
     },
@@ -53,7 +53,7 @@ const Hotels = () => {
       location: 'Gangtok',
       price: '₹4,500/night',
       rating: 4.4,
-      image: '/src/assets/prayer-flags.jpg',
+      image: '/src/assets/yumthang-valley.jpg',
       description: 'Modern hotel in the heart of Gangtok with easy access to major attractions.',
       amenities: ['Central Location', 'Restaurant', 'WiFi', 'Parking']
     },
@@ -63,7 +63,7 @@ const Hotels = () => {
       location: 'Lachung',
       price: '₹7,000/night',
       rating: 4.5,
-      image: '/src/assets/sikkim-culture-1.jpg',
+      image: '/src/assets/buddha-park-sikkim.jpg',
       description: 'Mountain retreat surrounded by rhododendrons and apple orchards.',
       amenities: ['Mountain View', 'Garden', 'Trekking', 'Local Cuisine']
     },
@@ -73,7 +73,7 @@ const Hotels = () => {
       location: 'Namchi',
       price: '₹3,800/night',
       rating: 4.3,
-      image: '/src/assets/buddha-statue.jpg',
+      image: '/src/assets/mg-marg.jpg',
       description: 'Comfortable stay with views of the famous Char Dham complex.',
       amenities: ['Religious Sites', 'Restaurant', 'WiFi', 'Parking']
     },
@@ -83,7 +83,7 @@ const Hotels = () => {
       location: 'Ravangla',
       price: '₹6,500/night',
       rating: 4.6,
-      image: '/src/assets/sikkim-prayer-wheel.jpg',
+      image: '/src/assets/baba-harbhajan-temple.jpg',
       description: 'Sustainable bamboo resort offering authentic mountain experience.',
       amenities: ['Eco-friendly', 'Buddha Park View', 'Meditation', 'Organic Food']
     },
@@ -93,7 +93,7 @@ const Hotels = () => {
       location: 'Ravangla',
       price: '₹5,200/night',
       rating: 4.4,
-      image: '/src/assets/sikkim-women-traditional.jpg',
+      image: '/src/assets/rumtek-monastery.jpg',
       description: 'Boutique resort showcasing traditional Sikkimese architecture and culture.',
       amenities: ['Cultural Experience', 'Mountain View', 'Restaurant', 'Spa']
     },
