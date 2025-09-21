@@ -131,7 +131,7 @@ const Index = () => {
       <section className="relative h-[70vh] overflow-hidden">
         <div 
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: `url(${buddhaImage})` }}
+          style={{ backgroundImage: `url(${buddhaStatue})` }}
         >
           <div className="absolute inset-0 bg-gradient-to-r from-monastery/80 via-monastery/60 to-transparent" />
         </div>
