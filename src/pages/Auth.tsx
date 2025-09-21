@@ -7,7 +7,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Label } from '@/components/ui/label';
 import { useAuth } from '@/contexts/AuthContext';
 import { useToast } from '@/hooks/use-toast';
-import buddhaImage from '@/assets/buddha-statue.jpg';
+import monasteryImage from '@/assets/sikkim-monastery-entrance.jpg';
 
 const Auth = () => {
   const [isLoading, setIsLoading] = useState(false);
@@ -77,8 +77,8 @@ const Auth = () => {
       <div className="w-full max-w-4xl grid md:grid-cols-2 gap-8 items-center">
         <div className="hidden md:block">
           <img 
-            src={buddhaImage}
-            alt="Buddha statue in Sikkim mountains"
+            src={monasteryImage}
+            alt="Monastery entrance in Sikkim mountains"
             className="rounded-lg shadow-2xl w-full h-[600px] object-cover"
           />
         </div>

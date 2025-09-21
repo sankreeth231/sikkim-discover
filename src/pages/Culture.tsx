@@ -9,7 +9,7 @@ import sikkimMonksCeremony from '@/assets/sikkim-monks-ceremony.jpg';
 import sikkimMonasteryDoor from '@/assets/sikkim-monastery-door.jpg';
 import sikkimPrayerWheel from '@/assets/sikkim-prayer-wheel.jpg';
 import prayerFlags from '@/assets/prayer-flags.jpg';
-import buddhaStatue from '@/assets/buddha-statue.jpg';
+import meditationImage from '@/assets/tibetan-meditation.jpg';
 import sikkimCulturalIcon from '@/assets/sikkim-cultural-icon.jpg';
 
 const Culture = () => {
@@ -25,7 +25,7 @@ const Culture = () => {
       name: 'Saga Dawa',
       description: 'Sacred month commemorating Buddha\'s birth, enlightenment, and death. Devotees participate in prayer ceremonies and perform good deeds.',
       date: 'May/June',
-      image: buddhaStatue,
+      image: meditationImage,
       significance: 'Holiest Buddhist celebration'
     },
     {
