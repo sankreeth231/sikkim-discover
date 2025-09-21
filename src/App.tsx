@@ -9,6 +9,7 @@ import Landing from "./pages/Landing";
 import Hotels from "./pages/Hotels";
 import Places from "./pages/Places";
 import ViewPoints from "./pages/ViewPoints";
+import Culture from "./pages/Culture";
 import Auth from "./pages/Auth";
 import NotFound from "./pages/NotFound";
 import { AppSidebar } from "@/components/AppSidebar";
@@ -78,6 +79,13 @@ const App = () => (
               <ProtectedRoute>
                 <AppLayout>
                   <ViewPoints />
+                </AppLayout>
+              </ProtectedRoute>
+            } />
+            <Route path="/culture" element={
+              <ProtectedRoute>
+                <AppLayout>
+                  <Culture />
                 </AppLayout>
               </ProtectedRoute>
             } />
