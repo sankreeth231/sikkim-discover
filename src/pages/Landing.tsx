@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { Building2, Mountain, MapPin, ChevronDown, Heart } from 'lucide-react';
+import { Building2, Mountain, MapPin, ChevronDown } from 'lucide-react';
 
 const Landing = () => {
   const navigate = useNavigate();
@@ -34,13 +34,6 @@ const Landing = () => {
       icon: Mountain,
       path: '/viewpoints',
       gradient: 'from-mountain-mist/80 to-primary/60'
-    },
-    {
-      title: 'Know About Sikkim Culture',
-      description: 'Discover rich traditions, festivals, monasteries, and the vibrant cultural heritage of Sikkim',
-      icon: Heart,
-      path: '/culture',
-      gradient: 'from-cultural-warm/80 to-heritage-deep/60'
     }
   ];
 
@@ -78,7 +71,7 @@ const Landing = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-3 gap-8">
             {exploreOptions.map((option) => {
               const IconComponent = option.icon;
               return (

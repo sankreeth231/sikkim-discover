@@ -34,7 +34,6 @@ const navigationItems = [
   { title: "Hotels", url: "/hotels", icon: Building },
   { title: "Places", url: "/places", icon: MapPin },
   { title: "View Points", url: "/viewpoints", icon: Eye },
-  { title: "Culture", url: "/culture", icon: Heart },
   { title: "Favorites", url: "/favorites", icon: Heart },
 ];
 
