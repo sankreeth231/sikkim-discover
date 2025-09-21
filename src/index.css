@@ -141,7 +141,7 @@ All colors MUST be HSL.
   
   /* Landing page hero styles */
   .hero-bg {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url('/src/assets/buddha-park-statue.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url('/src/assets/sikkim-hero-view.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
