@@ -10,7 +10,7 @@ import sikkimMonasteryDoor from '@/assets/sikkim-monastery-door.jpg';
 import sikkimPrayerWheel from '@/assets/sikkim-prayer-wheel.jpg';
 import prayerFlags from '@/assets/prayer-flags.jpg';
 import meditationImage from '@/assets/tibetan-meditation.jpg';
-import sikkimCulturalIcon from '@/assets/sikkim-cultural-icon.jpg';
+import buddhaParksLandscape from '@/assets/buddha-park-landscape.jpg';
 
 const Culture = () => {
   const festivals = [
@@ -92,7 +92,7 @@ const Culture = () => {
         <div className="absolute inset-0 bg-black/40" />
         <div 
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: `url(${sikkimCulturalIcon})` }}
+          style={{ backgroundImage: `url(${buddhaParksLandscape})` }}
         />
         <div className="relative z-10 h-full flex items-center justify-center text-center px-4">
           <div>
