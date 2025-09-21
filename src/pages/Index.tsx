@@ -7,7 +7,6 @@ import { SidebarTrigger } from '@/components/ui/sidebar';
 import { supabase } from '@/integrations/supabase/client';
 import { useAuth } from '@/contexts/AuthContext';
 import buddhaStatue from '@/assets/buddha-statue.jpg';
-import buddhaImage from '@/assets/buddha-statue.jpg';
 import buddhaParksLandscape from '@/assets/buddha-park-landscape.jpg';
 
 interface Place {
