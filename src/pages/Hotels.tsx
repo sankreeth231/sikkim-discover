@@ -23,7 +23,7 @@ const Hotels = () => {
       location: 'Gangtok',
       price: '₹8,500/night',
       rating: 4.8,
-      image: '/src/assets/nathula-pass.jpg',
+      image: '/src/assets/hotel-spa-resort.jpg',
       description: 'Luxury resort with stunning mountain views and world-class spa facilities.',
       amenities: ['Spa', 'Casino', 'Mountain View', 'Restaurant']
     },
@@ -33,7 +33,7 @@ const Hotels = () => {
       location: 'Gangtok',
       price: '₹6,200/night',
       rating: 4.6,
-      image: '/src/assets/tsomgo-lake.jpg',
+      image: '/src/assets/hotel-heritage.jpg',
       description: 'Heritage hotel offering traditional Sikkimese hospitality with modern amenities.',
       amenities: ['Heritage', 'Restaurant', 'City View', 'WiFi']
     },
@@ -43,7 +43,7 @@ const Hotels = () => {
       location: 'Pelling',
       price: '₹5,800/night',
       rating: 4.7,
-      image: '/src/assets/gurudongmar-lake.jpg',
+      image: '/src/assets/hotel-eco-friendly.jpg',
       description: 'Eco-friendly resort with panoramic views of Kanchenjunga and surrounding peaks.',
       amenities: ['Eco-friendly', 'Mountain View', 'Trekking', 'Restaurant']
     },
@@ -53,7 +53,7 @@ const Hotels = () => {
       location: 'Gangtok',
       price: '₹4,500/night',
       rating: 4.4,
-      image: '/src/assets/yumthang-valley.jpg',
+      image: '/src/assets/hotel-modern.jpg',
       description: 'Modern hotel in the heart of Gangtok with easy access to major attractions.',
       amenities: ['Central Location', 'Restaurant', 'WiFi', 'Parking']
     },
@@ -63,7 +63,7 @@ const Hotels = () => {
       location: 'Lachung',
       price: '₹7,000/night',
       rating: 4.5,
-      image: '/src/assets/buddha-park-sikkim.jpg',
+      image: '/src/assets/hotel-retreat.jpg',
       description: 'Mountain retreat surrounded by rhododendrons and apple orchards.',
       amenities: ['Mountain View', 'Garden', 'Trekking', 'Local Cuisine']
     },
@@ -73,7 +73,7 @@ const Hotels = () => {
       location: 'Namchi',
       price: '₹3,800/night',
       rating: 4.3,
-      image: '/src/assets/mg-marg.jpg',
+      image: '/src/assets/hotel-mountain-view.jpg',
       description: 'Comfortable stay with views of the famous Char Dham complex.',
       amenities: ['Religious Sites', 'Restaurant', 'WiFi', 'Parking']
     },
@@ -83,7 +83,7 @@ const Hotels = () => {
       location: 'Ravangla',
       price: '₹6,500/night',
       rating: 4.6,
-      image: '/src/assets/baba-harbhajan-temple.jpg',
+      image: '/src/assets/hotel-bamboo.jpg',
       description: 'Sustainable bamboo resort offering authentic mountain experience.',
       amenities: ['Eco-friendly', 'Buddha Park View', 'Meditation', 'Organic Food']
     },
@@ -93,7 +93,7 @@ const Hotels = () => {
       location: 'Ravangla',
       price: '₹5,200/night',
       rating: 4.4,
-      image: '/src/assets/rumtek-monastery.jpg',
+      image: '/src/assets/hotel-boutique.jpg',
       description: 'Boutique resort showcasing traditional Sikkimese architecture and culture.',
       amenities: ['Cultural Experience', 'Mountain View', 'Restaurant', 'Spa']
     },
@@ -103,7 +103,7 @@ const Hotels = () => {
       location: 'Yuksom',
       price: '₹4,200/night',
       rating: 4.2,
-      image: '/src/assets/sikkim-girl-festival.jpg',
+      image: '/src/assets/hotel-luxury-resort.jpg',
       description: 'Historic location hotel, gateway to Kanchenjunga National Park.',
       amenities: ['Trekking Base', 'Historic Site', 'Restaurant', 'Guides']
     },
@@ -113,7 +113,7 @@ const Hotels = () => {
       location: 'Tsomgo Lake',
       price: '₹8,000/night',
       rating: 4.9,
-      image: '/src/assets/sikkim-monks-ceremony.jpg',
+      image: '/src/assets/hotel-lakeside.jpg',
       description: 'Exclusive lakeside resort offering unparalleled tranquility and mountain views.',
       amenities: ['Lakeside', 'Premium Service', 'Mountain View', 'Fine Dining']
     }
