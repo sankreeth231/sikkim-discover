@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Plus, Mountain } from 'lucide-react';
+import { Plus, Heart } from 'lucide-react';
 import { SearchBar } from '@/components/SearchBar';
 import { PlaceCard } from '@/components/PlaceCard';
 import { Button } from '@/components/ui/button';
@@ -7,7 +7,7 @@ import { SidebarTrigger } from '@/components/ui/sidebar';
 import { supabase } from '@/integrations/supabase/client';
 import { useAuth } from '@/contexts/AuthContext';
 import buddhaImage from '@/assets/buddha-statue.jpg';
-import prayerFlagsImage from '@/assets/prayer-flags.jpg';
+import buddhaParksLandscape from '@/assets/buddha-park-landscape.jpg';
 
 interface Place {
   id: string;
@@ -114,7 +114,7 @@ const Index = () => {
     return (
       <div className="min-h-screen flex items-center justify-center bg-background">
         <div className="animate-lotus-bloom text-monastery">
-          <Mountain className="w-12 h-12 mx-auto mb-2" />
+          <Heart className="w-12 h-12 mx-auto mb-2" />
           <p className="text-lg">Loading Sikkim's wonders...</p>
         </div>
       </div>
@@ -141,7 +141,7 @@ const Index = () => {
             <div className="flex items-center space-x-3">
               <SidebarTrigger className="text-white hover:bg-white/10" />
               <div className="flex items-center space-x-2">
-                <Mountain className="w-8 h-8 text-saffron" />
+                <Heart className="w-8 h-8 text-saffron" />
                 <h1 className="text-xl font-bold text-white hidden sm:block">Explore Sikkim</h1>
               </div>
             </div>
@@ -219,7 +219,7 @@ const Index = () => {
           {/* No Results */}
           {filteredPlaces.length === 0 && (
             <div className="text-center py-12">
-              <Mountain className="w-16 h-16 mx-auto text-muted-foreground mb-4" />
+              <Heart className="w-16 h-16 mx-auto text-muted-foreground mb-4" />
               <h3 className="text-xl font-semibold text-monastery mb-2">No places found</h3>
               <p className="text-muted-foreground">
                 Try adjusting your search or filters to find more destinations.
@@ -232,12 +232,12 @@ const Index = () => {
       {/* Footer with Buddhist elements */}
       <footer 
         className="mt-20 py-12 bg-cover bg-center relative"
-        style={{ backgroundImage: `url(${prayerFlagsImage})` }}
+        style={{ backgroundImage: `url(${buddhaParksLandscape})` }}
       >
         <div className="absolute inset-0 bg-monastery/80" />
         <div className="relative z-10 max-w-4xl mx-auto text-center px-4">
           <div className="text-golden-light space-y-4">
-            <Mountain className="w-12 h-12 mx-auto animate-prayer-wheel" />
+            <Heart className="w-12 h-12 mx-auto animate-prayer-wheel" />
             <h3 className="text-2xl font-bold">Om Mani Padme Hum</h3>
             <p className="text-lg">
               May all beings find peace and happiness in their journey through Sikkim
